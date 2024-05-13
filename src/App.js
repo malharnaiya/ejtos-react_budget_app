@@ -19,7 +19,7 @@ const App = () => {
         <AppProvider>
             <div className='container'>
                 <h1 className='mt-3'>Company's Budget Allocation</h1>
-                    <div className='row mt-3'>
+                    <div className='row'>
                         {/* Add Budget component here under */}   
                         <div className='col-sm'>
                             <Budget />
@@ -34,6 +34,9 @@ const App = () => {
                         <div className='col-sm'>
                             <ExpenseTotal />
                         </div> 
+                    </div>
+
+                    <div className='row'>
                        
                         {/* Add ExpenseList component here under */}
                         <div className='col-sm'>
@@ -44,6 +47,10 @@ const App = () => {
                         <div className='col-sm'>
                             <ExpenseItem />
                         </div>
+
+                    </div>
+
+                    <div className='row'>
 
                         {/* Add AllocationForm component here under */}
                         <div className='col-sm'>
